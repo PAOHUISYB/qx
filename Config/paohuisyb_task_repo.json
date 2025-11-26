@@ -1,0 +1,7 @@
+{
+    "name": "PAOHUISYB 脚本库",
+    "description": "https://github.com/PAOHUISYB/qx - 携程 App 签到等任务",
+    "task": [
+        "0 8 * * * https://raw.githubusercontent.com/PAOHUISYB/qx/refs/heads/main/Scripts/ctrip_integrated.js, tag=携程 App 签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/ctrip.png, enabled=true"
+    ]
+}

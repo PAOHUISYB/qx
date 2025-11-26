@@ -1,9 +1,0 @@
-[
-  {
-    "name": "携程 App 签到",
-    "type": "cron",
-    "task": "0 8 * * *",
-    "script": "https://raw.githubusercontent.com/PAOHUISYB/qx/refs/heads/main/Scripts/ctrip_integrated.js",
-    "desc": "每日自动执行携程 App 签到任务 ，需要先抓包获取 Cookie。"
-  }
-]
