@@ -10,10 +10,11 @@ const cookieKey = 'cookie_ctrip';
 const isRequest = typeof $request !== 'undefined'; // 判断是否为重写请求触发
 
 // 检查是否在 Quantumult X 环境
-if (typeof $task === 'undefined' || !$task.is) {
+if (typeof $task === 'undefined') {
     console.log(`[${cookieName}] 脚本未在 Quantumult X 环境运行`);
     $done();
 }
+
 
 if (isRequest) {
     // --- 模式 1: Cookie 获取 ---
